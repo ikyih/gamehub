@@ -1,7 +1,8 @@
 html {
-  background-color: #FFFFFF;
+  background-color: #202124;
   color: #ffffff;
-}
+  font-family: Inter sans-serif;
+  }
   .heading {
     text-align: center;
     position: fixed;
