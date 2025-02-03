@@ -6,9 +6,15 @@
     <title>Patapon 2: Art of War</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <body>
-    <div id="container">
-        <h1>Patapon 2: Art of War</h1>
-        <embed src="Artofwar.swf" width="800" height="600"></embed>
-    </div>
+    <ruffle-object width="800" height="600">
+            <param name="movie" value="Artofwar.swf">
+            <param name="quality" value="high">
+            <param name="play" value="true">
+            <param name="loop" value="false">
+            <param name="menu" value="false">
+            <param name="scale" value="showall">
+            <param name="allowScriptAccess" value="always">
+        </ruffle-object>
+            </div>
 </body>
 </html>
