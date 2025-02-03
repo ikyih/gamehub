@@ -17,6 +17,8 @@
             let player = ruffle.createPlayer();
             container.innerHTML = "";
             container.appendChild(player);
+            player.allowScriptAccess = "always";
+            player.allowNetworking = "all";
             player.load("Artofwar.swf");
         });
     </script>
